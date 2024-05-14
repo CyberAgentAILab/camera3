@@ -4,11 +4,12 @@ CAMERA<sup>3</sup> is an evaluation dataset for controllable text generation in 
 CAMERA<sup>3</sup>  includes 3,980 ad texts written by expert annotators, taking into account various aspects of ad appeals in LP (Landing Page).
 
 The dataset is released in `json` and `jsonl` formats (available at `data/` directory).
-LP images (sliced) are in the `lp-screnshot-sliced/` (shared Google Drive) and are associated with the `lp_image_sliced` key in the json/jsonl files.
+LP images (sliced) are available [here]() and are associated with the `lp_image_sliced` key in the json/jsonl files.
 
 ## Dataset
 - json: `data/camera3-v1.json`
 - jsonl: `data/camera3-v1.jsonl`
+- lp_images: `camera3-v1-lp-screenshot-sliced/screen-1200-{lp_image_sliced}.png`
 
 | Name | Description |
 | --- | ---- |
@@ -39,7 +40,7 @@ LP images (sliced) are in the `lp-screnshot-sliced/` (shared Google Drive) and a
 ## Citation
 ```
 @inproceedings{inoue-etal-2024-camera3,
-    title = "CAMERA3: An Evaluation Dataset for Controllable Ad Text Generation in Japanese",
+    title = "CAMERA³: An Evaluation Dataset for Controllable Ad Text Generation in Japanese",
     author = "Inoue, Go and
     Kato, Akihiko and
     Mita, Masato and
