@@ -3,12 +3,12 @@
 CAMERA<sup>3</sup> is an evaluation dataset for controllable text generation in the advertising domain in Japanese.
 CAMERA<sup>3</sup>  includes 3,980 ad texts written by expert annotators, taking into account various aspects of ad appeals in LP (Landing Page).
 
-The dataset is released in `json` and `jsonl` formats (available at `data/` directory).
-LP images (sliced) are available [here]() and are associated with the `lp_image_sliced` key in the json/jsonl files.
+- The annotated data is available available at [`data/`](data/) directory in this repository in `json` and `jsonl`.
+- The LP images are available [here](https://storage.googleapis.com/camera-cubed-public/camera-cubed-v1-lp-screenshot-sliced.tar.gz) (2.3GB).
 
 ## Dataset
-- json: `data/camera3-v1.json`
-- jsonl: `data/camera3-v1.jsonl`
+- json: [`data/camera3-v1.json`](data/camera3-v1.json)
+- jsonl: [`data/camera3-v1.jsonl`](data/camera3-v1.jsonl)
 - lp_images: `camera3-v1-lp-screenshot-sliced/screen-1200-{lp_image_sliced}.png`
 
 | Name | Description |
